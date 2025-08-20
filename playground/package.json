@@ -1,0 +1,26 @@
+{
+  "name": "@monorepo/playground",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "description": "",
+  "author": "Jove Jonovski <jovejonovski@gmail.com> (https://github.com/datyin)",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "vue-tsc --noEmit",
+    "dev": "vite",
+    "build": "pnpm run lint && pnpm run typecheck && vite build"
+  },
+  "dependencies": {
+    "@vueuse/core": "catalog:",
+    "naive-ui": "catalog:",
+    "vue": "catalog:",
+    "vue-i18n": "catalog:",
+    "vue-router": "catalog:"
+  },
+  "devDependencies": {
+    "@iconify-json/fluent": "catalog:"
+  }
+}
