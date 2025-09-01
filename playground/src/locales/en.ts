@@ -1,4 +1,5 @@
 export const en = {
+  Search: "Search...",
   GetStarted: "Get Started",
 };
 

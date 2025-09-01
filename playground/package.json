@@ -1,5 +1,5 @@
 {
-  "name": "@monorepo/playground",
+  "name": "@lazypack/playground",
   "type": "module",
   "version": "0.0.1",
   "private": true,
@@ -14,8 +14,10 @@
     "build": "pnpm run lint && pnpm run typecheck && vite build"
   },
   "dependencies": {
+    "@lazypack/naive-ui": "workspace:*",
     "@vueuse/core": "catalog:",
     "naive-ui": "catalog:",
+    "pinia": "catalog:",
     "vue": "catalog:",
     "vue-i18n": "catalog:",
     "vue-router": "catalog:"

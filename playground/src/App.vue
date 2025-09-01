@@ -1,4 +1,7 @@
 <script setup lang="ts">
+import { LNConfigProvider } from "@lazypack/naive-ui";
+import DefaultLayout from "./layouts/DefaultLayout.vue";
+
 defineOptions({
   name: "Playground",
   inheritAttrs: false,
@@ -6,7 +9,7 @@ defineOptions({
 </script>
 
 <template>
-  <NaiveWrapper>
+  <LNConfigProvider>
     <DefaultLayout />
-  </NaiveWrapper>
+  </LNConfigProvider>
 </template>

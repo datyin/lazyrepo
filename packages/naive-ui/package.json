@@ -1,8 +1,8 @@
 {
-  "name": "@lazyrepo/my-library",
+  "name": "@lazypack/naive-ui",
   "type": "module",
   "version": "0.0.1",
-  "description": "",
+  "description": "Naive UI component package",
   "author": "Jove Jonovski <jovejonovski@gmail.com> (https://github.com/datyin)",
   "license": "MIT",
   "exports": {
@@ -21,11 +21,20 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "vue-tsc --noEmit",
     "test": "vitest",
     "test:ui": "vitest --ui",
-    "dev": "vite",
+    "dev": "tsdown --watch",
     "build": "pnpm run lint && pnpm run typecheck && tsdown"
+  },
+  "peerDependencies": {
+    "@vueuse/core": ">=13.8",
+    "naive-ui": ">=2.42",
+    "vue": ">=3.5",
+    "vue-router": ">=4.5"
+  },
+  "devDependencies": {
+    "@iconify-json/fluent": "catalog:"
   },
   "publishConfig": {
     "access": "public",

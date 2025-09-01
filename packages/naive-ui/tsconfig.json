@@ -2,13 +2,8 @@
   "extends": "@vue/tsconfig/tsconfig.dom.json",
   "compilerOptions": {
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.lib.tsbuildinfo",
-    "baseUrl": "./src",
-    "paths": {
-      "@/*": ["*"]
-    },
     "types": [
-      "unplugin-icons/types/vue",
-      "vite/client"
+      "unplugin-icons/types/vue"
     ],
     "strict": true,
     "noFallthroughCasesInSwitch": true,

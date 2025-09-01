@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import type { MenuOption } from "naive-ui";
-import FluentBook16Regular from "~icons/fluent/book-16-regular";
-import { renderIcon, renderRouterLink } from "@/utilities/naive-ui.ts";
+import { renderImageAsIcon, renderRouterLink } from "@lazypack/naive-ui";
+import { NMenu } from "naive-ui";
+import { computed } from "vue";
+import Logo from "@/assets/Logo.svg?url";
 
 defineOptions({
   name: "Logo",
@@ -12,7 +14,7 @@ const options = computed<MenuOption[]>(() => ([
   {
     key: "home",
     label: renderRouterLink("Logo", { to: "/" }),
-    icon: renderIcon({ component: FluentBook16Regular }),
+    icon: renderImageAsIcon(Logo),
   },
 ]));
 </script>
@@ -22,6 +24,6 @@ const options = computed<MenuOption[]>(() => ([
     :value="null"
     :collapsed-width="64"
     :collapsed-icon-size="22"
-    :options
+    :options="options"
   />
 </template>

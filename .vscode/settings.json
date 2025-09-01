@@ -53,9 +53,5 @@
   ],
   "typescript.tsdk": "node_modules\\typescript\\lib",
   "typescript.preferences.importModuleSpecifierEnding": "js",
-  "javascript.preferences.importModuleSpecifierEnding": "js",
-  "typescript.preferences.autoImportFileExcludePatterns": [
-    "vue-router/auto$",
-    "naive-ui"
-  ]
+  "javascript.preferences.importModuleSpecifierEnding": "js"
 }

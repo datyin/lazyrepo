@@ -4,33 +4,31 @@ packages:
 
 catalog:
   "@antfu/eslint-config": 5.2.1
-  "@iconify-json/fluent": 1.2.28
+  "@iconify-json/fluent": 1.2.29
   "@types/node": 24.3.0
   "@unocss/eslint-plugin": 66.4.2
   "@vitejs/plugin-vue": 6.0.1
   "@vitest/ui": 3.2.4
   "@vue/tsconfig": 0.8.1
-  "@vueuse/core": 13.7.0
-  eslint: 9.33.0
+  "@vueuse/core": 13.8.0
+  eslint: 9.34.0
   eslint-plugin-format: 1.0.1
   naive-ui: 2.42.0
-  tsdown: 0.14.1
+  pinia: 3.0.3
+  tsdown: 0.14.2
   typescript: 5.9.2
   unocss: 66.4.2
-  unplugin-auto-import: 20.0.0
   unplugin-icons: 22.2.0
   unplugin-turbo-console: 2.2.0
   unplugin-vue: 7.0.1
-  unplugin-vue-components: 29.0.0
   unplugin-vue-markdown: 29.1.0
-  unplugin-vue-router: 0.15.0
   vite: 7.1.3
-  vite-plugin-vue-devtools: 8.0.0
+  vite-plugin-vue-devtools: 8.0.1
   vitest: 3.2.4
-  vue: 3.5.18
+  vue: 3.5.20
   vue-i18n: 11.1.11
   vue-router: 4.5.1
-  vue-tsc: 3.0.5
+  vue-tsc: 3.0.6
 
 catalogMode: strict
 
